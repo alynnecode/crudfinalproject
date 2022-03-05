@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The List App</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+  
+</head>
+<body>
+<div class="title">
+    <h1>The List App</h1>
+<p>This productivity companion, allows you to keep track of your important items with ease.</p>
+<p>Simply type in the name of your item, select Add. You can also edit and delete items.</p>
+</div>
+<br>
+<div class="form">
+
+<form action="javascript:void(0);(0);" method="POST"
+onsubmit="app.addButton()">
+<input type="text" id="add-tolist"
+placeholder="Type here to add item">
+<input type="submit" value="Add" class="btn btn-warning">
+</form>
+</div>
+<br>
+<p id="counter"></p>
+
+<br>
+<table>
+
+    <tr class="to-do">
+<th><h3>Items:</h3></h></th>
+
+    </tr>
+    <tbody id="listitems">
+
+    </tbody>
+</table>
+</div>
+
+<div id="edit-box" role="aria-hidden">
+<form action="javascript:void(0);"method ="POST"
+id="save-edit">
+<input type="text" id="edit-todo">
+<input type="submit" value="Update" class="btn btn-secondary">
+<a onclick="ShutDown()" area-label="Close">&#10006;</a>
+</form>
+
+<script src="/crud.js"></script>
+</body>
+
+
+</html>

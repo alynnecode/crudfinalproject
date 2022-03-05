@@ -1,0 +1,64 @@
+.title{
+    text-align: center;
+    margin: 25px;
+
+}
+
+
+p {
+    text-align: center;
+    color: black;
+
+}
+
+h1 {
+    background-color:yellow;
+    color: black;
+    text-align: center;
+    border:black;
+    border-width: thick;
+    border-style: dotted;
+    
+
+  }
+
+
+
+.form{
+    margin: auto;
+   border-width: thin medium thick;
+    max-width: 90%;
+    text-align: center;
+    
+}
+    
+
+input[type='submit'],button, [aria-label] {
+    cursor: pointer;
+}
+
+#edit-box{
+    display: none;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+td{
+    background-color:white;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.to-do{
+    background: transparent !important;
+ 
+
+}
+
+
+
+
+
+
